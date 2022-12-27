@@ -14,8 +14,8 @@ import java.util.Properties;
 @Service
 public class EmailService {
     public ResponseEntity<ResponseDTO> sendEmail(EmailModel email) {
-        final String fromEmail = "tanuja.pathak13@gmail.com";
-        final String fromPwd = "jywpcrgabcuuigcv";
+        final String fromEmail = "abc@xyz.com";
+        final String fromPwd = "1234";
         Properties properties = new Properties();
         properties.put("mail.smtp.host", "smtp.gmail.com");
         properties.put("mail.smtp.port", "587");
